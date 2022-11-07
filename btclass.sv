@@ -41,8 +41,8 @@ class btclass;
 
     $display(value);
 
-    if begin
-      (lpt) lpt.printdescending();
+    if (lpt) begin
+       lpt.printdescending();
     end
     return;
    end
