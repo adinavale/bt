@@ -25,8 +25,8 @@ class btclass;
 
     $display(value);
 
-    if begin
-      (gpt) gpt.printascending();
+    if (gpt) begin
+       gpt.printascending();
     end
 
     return;
