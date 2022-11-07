@@ -33,9 +33,9 @@ if (gpt) gpt.printascending();
  //----------------------------------------------------
  //    Add code here to print the numbers in descending order
  //----------------------------------------------------  
- if (lpt) lpt.printdescending();
+ if (gpt) lpt.printdescending();
 $display(value);
-if (gpt) gpt.printdescending(); 
+if (lpt) gpt.printdescending(); 
    end
  endfunction
 
