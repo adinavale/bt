@@ -22,6 +22,9 @@ class btclass;
 //---------------------------------------------------
 //     Add code here to print the numbers in assending order
 //---------------------------------------------------
+if (lpt) lpt.printascending();
+$display(value);
+if (gpt) gpt.printascending();
    end
  endfunction
  
