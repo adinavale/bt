@@ -32,7 +32,10 @@ if (gpt) gpt.printascending();
    begin
  //----------------------------------------------------
  //    Add code here to print the numbers in descending order
- //----------------------------------------------------   
+ //----------------------------------------------------  
+ if (gpt) lpt.printdescending();
+$display(value);
+if (lpt) gpt.printdescending(); 
    end
  endfunction
 
