@@ -22,9 +22,10 @@ class btclass;
 //---------------------------------------------------
 //     Add code here to print the numbers in assending order
 //---------------------------------------------------
-if (lpt) lpt.printascending();
-$display(value);
-if (gpt) gpt.printascending();
+    if (lpt) lpt.printascending();
+    $display(value);
+    if (gpt) gpt.printascending();
+    return;
    end
  endfunction
  
@@ -33,9 +34,9 @@ if (gpt) gpt.printascending();
  //----------------------------------------------------
  //    Add code here to print the numbers in descending order
  //----------------------------------------------------  
- if (lpt) lpt.printdescending();
 if (gpt) gpt.printdescending(); 
 $display(value);
+if (lpt) lpt.printdescending();
    end
  endfunction
 
