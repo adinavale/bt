@@ -34,9 +34,10 @@ class btclass;
  //----------------------------------------------------
  //    Add code here to print the numbers in descending order
  //----------------------------------------------------  
-if (gpt) gpt.printdescending(); 
-$display(value);
-if (lpt) lpt.printdescending();
+    if (gpt) gpt.printdescending(); 
+    $display(value);
+    if (lpt) lpt.printdescending();
+    return;
    end
  endfunction
 
