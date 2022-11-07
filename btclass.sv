@@ -19,24 +19,31 @@ class btclass;
 
  function automatic void printascending;
    begin
-//---------------------------------------------------
-//     Add code here to print the numbers in assending order
-//---------------------------------------------------
-    if (lpt) lpt.printascending();
+    if begin
+      (lpt) lpt.printascending();
+    end
+
     $display(value);
-    if (gpt) gpt.printascending();
+
+    if begin
+      (gpt) gpt.printascending();
+    end
+
     return;
    end
  endfunction
  
  function automatic void printdescending;
    begin
- //----------------------------------------------------
- //    Add code here to print the numbers in descending order
- //----------------------------------------------------  
-    if (gpt) gpt.printdescending(); 
+    if (gpt) begin
+      gpt.printdescending(); 
+    end
+
     $display(value);
-    if (lpt) lpt.printdescending();
+    
+    if begin
+      (lpt) lpt.printdescending();
+    end
     return;
    end
  endfunction
