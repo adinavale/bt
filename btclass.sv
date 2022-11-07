@@ -19,8 +19,8 @@ class btclass;
 
  function automatic void printascending;
    begin
-    if begin
-      (lpt) lpt.printascending();
+    if (lpt) begin
+      lpt.printascending();
     end
 
     $display(value);
@@ -40,7 +40,7 @@ class btclass;
     end
 
     $display(value);
-    
+
     if begin
       (lpt) lpt.printdescending();
     end
